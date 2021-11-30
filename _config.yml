@@ -1,0 +1,22 @@
+title: 김채린 blog
+favicon: /assets/favicon.ico
+description: 학번 20202075/ email chearin0410@naver.com
+global_tags: jekyll theme simplex golasblog responsive html5
+copyright: © Golasowski 2021
+
+sass:
+    style: compressed
+
+collections:
+    category:
+        output: true
+    authors:
+        output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
